@@ -1,0 +1,720 @@
+10/13/2022 08:51:17 AM INFO:(FOR_EACH) Demoddata module(s) loading :
+10/13/2022 08:51:17 AM INFO:module : CSV loaded
+10/13/2022 08:51:17 AM INFO:(END) Demoddata module(s) loading :
+10/13/2022 08:51:17 AM INFO:No module list found
+10/13/2022 08:51:17 AM DEBUG:Starting new HTTPS connection (1): network.satnogs.org:443
+10/13/2022 08:51:17 AM DEBUG:Starting new HTTPS connection (1): network.satnogs.org:443
+10/13/2022 08:51:17 AM DEBUG:Starting new HTTPS connection (1): network.satnogs.org:443
+10/13/2022 08:51:17 AM DEBUG:Starting new HTTPS connection (1): network.satnogs.org:443
+10/13/2022 08:51:17 AM DEBUG:https://network.satnogs.org:443 "GET /api/observations/?satellite__norad_cat_id=47959&start=2022-10-13T08%3A51%3A12.862687&end=2022-10-13T09%3A01%3A12.862687&page=2&format=json HTTP/1.1" 404 26
+10/13/2022 08:51:17 AM DEBUG:https://network.satnogs.org:443 "GET /api/observations/?satellite__norad_cat_id=47959&start=2022-10-13T08%3A51%3A12.862687&end=2022-10-13T09%3A01%3A12.862687&page=4&format=json HTTP/1.1" 404 26
+10/13/2022 08:51:17 AM DEBUG:https://network.satnogs.org:443 "GET /api/observations/?satellite__norad_cat_id=47959&start=2022-10-13T08%3A51%3A12.862687&end=2022-10-13T09%3A01%3A12.862687&page=3&format=json HTTP/1.1" 404 26
+10/13/2022 08:51:17 AM DEBUG:https://network.satnogs.org:443 "GET /api/observations/?satellite__norad_cat_id=47959&start=2022-10-13T08%3A51%3A12.862687&end=2022-10-13T09%3A01%3A12.862687&page=1&format=json HTTP/1.1" 200 2
+10/13/2022 08:51:17 AM INFO:job 1 scanning page...1
+10/13/2022 08:51:17 AM INFO:job 1 terminated
+10/14/2022 03:50:17 PM DEBUG:matplotlib data path: /home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data
+10/14/2022 03:50:17 PM DEBUG:CONFIGDIR=/home/limu/.config/matplotlib
+10/14/2022 03:50:17 PM DEBUG:interactive is False
+10/14/2022 03:50:17 PM DEBUG:platform is linux
+10/14/2022 03:50:18 PM DEBUG:CACHEDIR=/home/limu/.cache/matplotlib
+10/14/2022 03:50:18 PM DEBUG:Using fontManager instance from /home/limu/.cache/matplotlib/fontlist-v330.json
+10/14/2022 03:51:59 PM DEBUG:diff parser start
+10/14/2022 03:51:59 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 03:51:59 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 03:51:59 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 03:51:59 PM DEBUG:diff parser end
+10/14/2022 03:51:59 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+10/14/2022 03:51:59 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/scipy/__init__.py
+10/14/2022 03:52:00 PM DEBUG:pickle loaded: /usr/lib64/python3.10/typing.py
+10/14/2022 03:52:00 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+10/14/2022 03:52:01 PM DEBUG:diff parser start
+10/14/2022 03:52:01 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 03:52:01 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 03:52:01 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 03:52:01 PM DEBUG:diff parser end
+10/14/2022 03:53:29 PM DEBUG:diff parser start
+10/14/2022 03:53:29 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 03:53:29 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 03:53:29 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 03:53:29 PM DEBUG:diff parser end
+10/14/2022 03:54:00 PM DEBUG:diff parser start
+10/14/2022 03:54:00 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 03:54:00 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 03:54:00 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 03:54:00 PM DEBUG:diff parser end
+10/14/2022 03:54:00 PM DEBUG:pickle loaded: /usr/lib64/python3.10/types.py
+10/14/2022 03:54:00 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/types.pyi
+10/14/2022 03:54:00 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/__init__.py
+10/14/2022 03:54:00 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/__init__.pyi
+10/14/2022 03:54:00 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/__init__.py
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/__init__.pyi
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/multiarray.py
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/multiarray.pyi
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/typing/__init__.py
+10/14/2022 03:54:01 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/typing/_array_like.py
+10/14/2022 03:58:34 PM DEBUG:diff parser start
+10/14/2022 03:58:34 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 03:58:34 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 03:58:34 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 03:58:34 PM DEBUG:diff parser end
+10/14/2022 04:03:14 PM DEBUG:diff parser start
+10/14/2022 04:03:14 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 04:03:14 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 04:03:14 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 04:03:14 PM DEBUG:diff parser end
+10/14/2022 04:03:16 PM DEBUG:diff parser start
+10/14/2022 04:03:16 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 04:03:16 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 04:03:16 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 04:03:16 PM DEBUG:diff parser end
+10/14/2022 04:03:21 PM DEBUG:diff parser start
+10/14/2022 04:03:21 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 04:03:21 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 04:03:21 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 04:03:21 PM DEBUG:diff parser end
+10/14/2022 04:04:06 PM DEBUG:diff parser start
+10/14/2022 04:04:06 PM DEBUG:line_lengths old: 1; new: 1
+10/14/2022 04:04:06 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/14/2022 04:04:06 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/14/2022 04:04:06 PM DEBUG:diff parser end
+10/14/2022 04:04:29 PM DEBUG:diff parser start
+10/14/2022 04:04:29 PM DEBUG:line_lengths old: 1; new: 2
+10/14/2022 04:04:29 PM DEBUG:-> code[replace] old[1:1] new[1:2]
+10/14/2022 04:04:29 PM DEBUG:parse_part from 1 to 2 (to 1 in part parser)
+10/14/2022 04:04:29 PM DEBUG:diff parser end
+10/14/2022 04:04:30 PM DEBUG:diff parser start
+10/14/2022 04:04:30 PM DEBUG:line_lengths old: 2; new: 2
+10/14/2022 04:04:30 PM DEBUG:-> code[equal] old[1:1] new[1:1]
+10/14/2022 04:04:30 PM DEBUG:copy old[1:1] new[1:1]
+10/14/2022 04:04:30 PM DEBUG:-> code[replace] old[2:2] new[2:2]
+10/14/2022 04:04:30 PM DEBUG:parse_part from 2 to 2 (to 1 in part parser)
+10/14/2022 04:04:30 PM DEBUG:diff parser end
+10/14/2022 04:05:34 PM DEBUG:Loaded backend module://matplotlib_inline.backend_inline version unknown.
+10/14/2022 04:05:34 PM DEBUG:Loaded backend module://matplotlib_inline.backend_inline version unknown.
+10/14/2022 04:05:34 PM DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Black.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman12-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/cantarell/Cantarell-Thin.otf', name='Cantarell', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman12-italic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/sil-mingzat/Mingzat-Regular.ttf', name='Mingzat', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Condensed.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans10-boldoblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-ExtraLight.otf', name='Source Code Pro', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedMedium.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=500, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Semibold.otf', name='Source Code Pro', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansTamil-Bold.ttf', name='Droid Sans Tamil', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheroscn-regular.otf', name='TeX Gyre Heros Cn', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrebonum-bold.otf', name='TeX Gyre Bonum', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidKufi-Regular.ttf', name='Droid Arabic Kufi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-bengali/Lohit-Bengali.ttf', name='Lohit Bengali', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-vf/NotoSansSinhala-VF.ttf', name='Noto Sans Sinhala', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-mono/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre-math/texgyrepagella-math.otf', name='TeX Gyre Pagella Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedThin.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=100, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol9.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Black.otf', name='Source Code Pro', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedBlack.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=900, stretch='condensed', size='scalable')) = 10.725
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedSemiBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=600, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=300, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedBlack.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=900, stretch='condensed', size='scalable')) = 10.725
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/sil-padauk/Padauk-Bold.ttf', name='Padauk', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ExtraLight.otf', name='Montserrat', style='normal', variant='normal', weight=275, stretch='normal', size='scalable')) = 10.16875
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansquot8-regular.otf', name='Latin Modern Sans Quotation', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Bold.otf', name='Comfortaa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-BlackItalic.otf', name='Montserrat', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmono8-regular.otf', name='Latin Modern Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-BoldIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-mono/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/ht-caladea-fonts/Caladea-Regular.otf', name='Caladea', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedExtraBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=800, stretch='condensed', size='scalable')) = 10.629999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheroscn-bold.otf', name='TeX Gyre Heros Cn', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans17-regular.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre-math/texgyredejavu-math.otf', name='TeX Gyre DejaVu Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansJapanese.ttf', name='Droid Sans Japanese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol10.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedThin.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=100, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-devanagari/Lohit-Devanagari.ttf', name='Lohit Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonocaps10-oblique.otf', name='Latin Modern Mono Caps', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoltcond10-regular.otf', name='Latin Modern Mono Light Cond', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidKufi-Bold.ttf', name='Droid Arabic Kufi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/cantarell/Cantarell-Bold.otf', name='Cantarell', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman12-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedSemiBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=600, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/paktype-naskh-basic/PakTypeNaskhBasic.ttf', name='PakType Naskh Basic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Light.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrecursor-regular.otf', name='TeX Gyre Cursor', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/stix-fonts/STIX2Text-Bold.otf', name='STIX Two Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoproplt10-oblique.otf', name='Latin Modern Mono Prop Light', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant10-regular.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans8-regular.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheros-italic.otf', name='TeX Gyre Heros', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman10-bolditalic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoproplt10-regular.otf', name='Latin Modern Mono Prop Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/stix-fonts/STIX2Text-Italic.otf', name='STIX Two Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyretermes-italic.otf', name='TeX Gyre Termes', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant12-regular.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrechorus-mediumitalic.otf', name='TeX Gyre Chorus', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansDevanagari-Regular.ttf', name='Droid Sans Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoproplt10-bold.otf', name='Latin Modern Mono Prop Light', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrebonum-regular.otf', name='TeX Gyre Bonum', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/sil-abyssinica-fonts/AbyssinicaSIL-R.ttf', name='Abyssinica SIL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-SemiboldIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensed.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/ht-caladea-fonts/Caladea-Bold.otf', name='Caladea', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/sil-nuosu/NuosuSIL-Regular.ttf', name='Nuosu SIL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-carlito-fonts/Carlito-Regular.ttf', name='Carlito', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/stix-fonts/STIX2Text-BoldItalic.otf', name='STIX Two Text', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Light.otf', name='Montserrat', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman6-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-gujarati/Lohit-Gujarati.ttf', name='Lohit Gujarati', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonolt10-oblique.otf', name='Latin Modern Mono Light', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/smc-meera/Meera-Regular.ttf', name='Meera', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreschola-italic.otf', name='TeX Gyre Schola', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyretermes-bold.otf', name='TeX Gyre Termes', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-BoldItalic.otf', name='Montserrat', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman10-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-MediumIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansEthiopic-Regular.ttf', name='Droid Sans Ethiopic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyretermes-bolditalic.otf', name='TeX Gyre Termes', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-mono/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoproplt10-boldoblique.otf', name='Latin Modern Mono Prop Light', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedExtraBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=800, stretch='condensed', size='scalable')) = 10.629999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/thai-scalable/Waree-BoldOblique.otf', name='Waree', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold5.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans9-oblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans12-oblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman8-italic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/thai-scalable/Waree-Bold.otf', name='Waree', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Bold.otf', name='Montserrat', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansTamil-Regular.ttf', name='Droid Sans Tamil', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-serif/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant9-regular.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromancaps10-regular.otf', name='Latin Modern Roman Caps', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheros-regular.otf', name='TeX Gyre Heros', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrebonum-italic.otf', name='TeX Gyre Bonum', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman7-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ThinItalic.otf', name='Montserrat', style='italic', variant='normal', weight=100, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmono12-regular.otf', name='Latin Modern Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant10-bold.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromandunh10-oblique.otf', name='Latin Modern Roman Dunhill', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansdemicond10-oblique.otf', name='Latin Modern Sans Demi Cond', style='oblique', variant='normal', weight=600, stretch='condensed', size='scalable')) = 11.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Thin.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-carlito-fonts/Carlito-Bold.ttf', name='Carlito', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoprop10-regular.otf', name='Latin Modern Mono Prop', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-mono/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansdemicond10-regular.otf', name='Latin Modern Sans Demi Cond', style='normal', variant='normal', weight=600, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-serif/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-DemiLight.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Black.otf', name='Montserrat', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-kannada/Lohit-Kannada.ttf', name='Lohit Kannada', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans10-regular.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Black.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-LightItalic.otf', name='Montserrat', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrepagella-regular.otf', name='TeX Gyre Pagella', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-mono-fonts/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedExtraLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=200, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromandemi10-regular.otf', name='Latin Modern Roman Demi', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSans.ttf', name='Droid Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans12-regular.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Bold.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSans-Bold.ttf', name='Droid Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedSemiBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=600, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman7-italic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/gdouros-symbola/Symbola.ttf', name='Symbola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Regular.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoslant10-regular.otf', name='Latin Modern Mono Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-mono-fonts/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman10-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonolt10-bold.otf', name='Latin Modern Mono Light', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmono10-italic.otf', name='Latin Modern Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant8-regular.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans10-oblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/ht-caladea-fonts/Caladea-Italic.otf', name='Caladea', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans10-bold.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold7.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold9.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Medium.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonolt10-regular.otf', name='Latin Modern Mono Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansHebrew-Bold.ttf', name='Droid Sans Hebrew', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/ht-caladea-fonts/Caladea-BoldItalic.otf', name='Caladea', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman5-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedBlack.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=900, stretch='condensed', size='scalable')) = 10.725
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreadventor-italic.otf', name='TeX Gyre Adventor', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman5-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans8-oblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-ExtraLightIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=200, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Thin.otf', name='Montserrat', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ExtraLightItalic.otf', name='Montserrat', style='italic', variant='normal', weight=275, stretch='normal', size='scalable')) = 11.16875
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol8.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansGeorgian.ttf', name='Droid Sans Georgian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreadventor-bolditalic.otf', name='TeX Gyre Adventor', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Bold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmono9-regular.otf', name='Latin Modern Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Light.otf', name='Source Code Pro', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-MediumItalic.otf', name='Montserrat', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold6.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansquot8-boldoblique.otf', name='Latin Modern Sans Quotation', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman8-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedExtraLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=200, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-assamese/Lohit-Assamese.ttf', name='Lohit Assamese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Medium.otf', name='Source Code Pro', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-carlito-fonts/Carlito-BoldItalic.ttf', name='Carlito', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman7-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-SemiBoldItalic.otf', name='Montserrat', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrepagella-italic.otf', name='TeX Gyre Pagella', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheros-bold.otf', name='TeX Gyre Heros', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/cantarell/Cantarell-Regular.otf', name='Cantarell', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/cantarell/Cantarell-Light.otf', name='Cantarell', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ExtraBoldItalic.otf', name='Montserrat', style='italic', variant='normal', weight=800, stretch='normal', size='scalable')) = 11.43
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonolt10-boldoblique.otf', name='Latin Modern Mono Light', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-carlito-fonts/Carlito-Italic.ttf', name='Carlito', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/khmer-os-system-fonts/KhmerOS_sys.ttf', name='Khmer OS System', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Regular.ttf', name='Comfortaa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Regular.otf', name='Source Code Pro', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansThai.ttf', name='Droid Sans Thai', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol6.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedMedium.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=500, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/stix-fonts/STIX2Text-Regular.otf', name='STIX Two Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonocaps10-regular.otf', name='Latin Modern Mono Caps', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold10.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreschola-regular.otf', name='TeX Gyre Schola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Regular.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/thai-scalable/Waree.otf', name='Waree', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedExtraLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=200, stretch='condensed', size='scalable')) = 10.44
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrecursor-bold.otf', name='TeX Gyre Cursor', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans9-regular.otf', name='Latin Modern Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrebonum-bolditalic.otf', name='TeX Gyre Bonum', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol7.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Italic.otf', name='Montserrat', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Light.otf', name='Comfortaa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyretermes-regular.otf', name='TeX Gyre Termes', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromancaps10-oblique.otf', name='Latin Modern Roman Caps', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrepagella-bolditalic.otf', name='TeX Gyre Pagella', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Regular.otf', name='Comfortaa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-odia/Lohit-Odia.ttf', name='Lohit Odia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreschola-bold.otf', name='TeX Gyre Schola', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromandemi10-oblique.otf', name='Latin Modern Roman Demi', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Regular.otf', name='Montserrat', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansEthiopic-Bold.ttf', name='Droid Sans Ethiopic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Bold.otf', name='Source Code Pro', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedMedium.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=500, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman6-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-serif-fonts/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-SemiBold.otf', name='Montserrat', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold12.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-fonts/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansquot8-bold.otf', name='Latin Modern Sans Quotation', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman10-italic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-It.otf', name='Source Code Pro', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Bold.ttf', name='Comfortaa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-tamil/Lohit-Tamil.ttf', name='Lohit Tamil', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman17-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrepagella-bold.otf', name='TeX Gyre Pagella', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/opensymbol/opens___.ttf', name='OpenSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/jomolhari-fonts/Jomolhari-alpha3c-0605331.ttf', name='Jomolhari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreadventor-regular.otf', name='TeX Gyre Adventor', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansArmenian.ttf', name='Droid Sans Armenian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lohit-telugu/Lohit-Telugu.ttf', name='Lohit Telugu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreschola-bolditalic.otf', name='TeX Gyre Schola', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrecursor-italic.otf', name='TeX Gyre Cursor', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Light.ttf', name='Comfortaa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol-Bold8.otf', name='MnSymbol', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsans17-oblique.otf', name='Latin Modern Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-droid-sans-fonts/DroidSansHebrew-Regular.ttf', name='Droid Sans Hebrew', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoprop10-oblique.otf', name='Latin Modern Mono Prop', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman9-italic.otf', name='Latin Modern Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ExtraBold.otf', name='Montserrat', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Light.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromandunh10-regular.otf', name='Latin Modern Roman Dunhill', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-Medium.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmonoltcond10-oblique.otf', name='Latin Modern Mono Light Cond', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmmono10-regular.otf', name='Latin Modern Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman9-bold.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-LightIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-CondensedThin.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=100, stretch='condensed', size='scalable')) = 10.535
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/cantarell/Cantarell-ExtraBold.otf', name='Cantarell', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheroscn-italic.otf', name='TeX Gyre Heros Cn', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmsansquot8-oblique.otf', name='Latin Modern Sans Quotation', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-sans/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyrecursor-bolditalic.otf', name='TeX Gyre Cursor', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-Medium.otf', name='Montserrat', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre-math/texgyretermes-math.otf', name='TeX Gyre Termes Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm-math/latinmodern-math.otf', name='Latin Modern Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/adobe-source-code-pro/SourceCodePro-BlackIt.otf', name='Source Code Pro', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-sans/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman8-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheroscn-bolditalic.otf', name='TeX Gyre Heros Cn', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedExtraBold.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=800, stretch='condensed', size='scalable')) = 10.629999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/sil-padauk/Padauk-Regular.ttf', name='Padauk', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/stix-fonts/STIX2Math.otf', name='STIX Two Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-mono-fonts/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol5.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/mnsymbol/MnSymbol12.otf', name='MnSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/dejavu-sans-mono-fonts/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-serif/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-SemiCondensedLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=300, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanunsl10-regular.otf', name='Latin Modern Roman Unslanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto-cjk/NotoSansCJK-Thin.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmromanslant17-regular.otf', name='Latin Modern Roman Slanted', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensedLight.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=300, stretch='condensed', size='scalable')) = 10.344999999999999
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre-math/texgyrebonum-math.otf', name='TeX Gyre Bonum Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/liberation-serif/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreheros-bolditalic.otf', name='TeX Gyre Heros', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/google-noto/NotoSansGurmukhi-ExtraCondensed.ttf', name='Noto Sans Gurmukhi', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/lm/lmroman9-regular.otf', name='Latin Modern Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/thai-scalable/Waree-Oblique.otf', name='Waree', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre/texgyreadventor-bold.otf', name='TeX Gyre Adventor', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+10/14/2022 04:05:34 PM DEBUG:findfont: score(FontEntry(fname='/usr/share/fonts/tex-gyre-math/texgyreschola-math.otf', name='TeX Gyre Schola Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+10/14/2022 04:05:34 PM DEBUG:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/limu/.local/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+10/18/2022 12:07:13 PM DEBUG:diff parser start
+10/18/2022 12:07:13 PM DEBUG:line_lengths old: 2; new: 2
+10/18/2022 12:07:13 PM DEBUG:-> code[replace] old[1:2] new[1:2]
+10/18/2022 12:07:13 PM DEBUG:parse_part from 1 to 2 (to 1 in part parser)
+10/18/2022 12:07:13 PM DEBUG:diff parser end
+10/18/2022 12:07:15 PM DEBUG:diff parser start
+10/18/2022 12:07:15 PM DEBUG:line_lengths old: 2; new: 2
+10/18/2022 12:07:15 PM DEBUG:-> code[equal] old[1:1] new[1:1]
+10/18/2022 12:07:15 PM DEBUG:copy old[1:1] new[1:1]
+10/18/2022 12:07:15 PM DEBUG:-> code[replace] old[2:2] new[2:2]
+10/18/2022 12:07:15 PM DEBUG:parse_part from 2 to 2 (to 1 in part parser)
+10/18/2022 12:07:15 PM DEBUG:diff parser end
+10/18/2022 12:07:18 PM DEBUG:diff parser start
+10/18/2022 12:07:18 PM DEBUG:line_lengths old: 2; new: 2
+10/18/2022 12:07:18 PM DEBUG:-> code[equal] old[1:1] new[1:1]
+10/18/2022 12:07:18 PM DEBUG:copy old[1:1] new[1:1]
+10/18/2022 12:07:18 PM DEBUG:-> code[replace] old[2:2] new[2:2]
+10/18/2022 12:07:18 PM DEBUG:parse_part from 2 to 2 (to 1 in part parser)
+10/18/2022 12:07:18 PM DEBUG:diff parser end
+10/18/2022 12:07:18 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/__init__.py
+10/18/2022 12:07:18 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/__init__.py
+10/18/2022 12:07:18 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/name_resolve.py
+10/18/2022 12:07:18 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/__init__.py
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib64/python3.10/io.py
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/io.pyi
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib64/python3.10/os.py
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/os/__init__.pyi
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/2and3/_typeshed/__init__.pyi
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib64/python3.10/abc.py
+10/18/2022 12:07:19 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/abc.pyi
+10/18/2022 12:10:17 PM DEBUG:diff parser start
+10/18/2022 12:10:17 PM DEBUG:line_lengths old: 2; new: 1
+10/18/2022 12:10:17 PM DEBUG:-> code[replace] old[1:2] new[1:1]
+10/18/2022 12:10:17 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:10:17 PM DEBUG:diff parser end
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/sky_coordinate.py
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/codegen.py
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/decorators.py
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/introspection.py
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/misc.py
+10/18/2022 12:10:17 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/utils/shapes.py
+10/18/2022 12:10:44 PM DEBUG:diff parser start
+10/18/2022 12:10:44 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 12:10:44 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 12:10:44 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:10:44 PM DEBUG:diff parser end
+10/18/2022 12:18:57 PM DEBUG:diff parser start
+10/18/2022 12:18:57 PM DEBUG:line_lengths old: 1; new: 2
+10/18/2022 12:18:57 PM DEBUG:-> code[replace] old[1:1] new[1:2]
+10/18/2022 12:18:57 PM DEBUG:parse_part from 1 to 2 (to 1 in part parser)
+10/18/2022 12:18:57 PM DEBUG:diff parser end
+10/18/2022 12:18:57 PM DEBUG:pickle loaded: /usr/lib64/python3.10/datetime.py
+10/18/2022 12:18:57 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/2and3/datetime.pyi
+10/18/2022 12:20:24 PM DEBUG:diff parser start
+10/18/2022 12:20:24 PM DEBUG:line_lengths old: 2; new: 1
+10/18/2022 12:20:24 PM DEBUG:-> code[replace] old[1:2] new[1:1]
+10/18/2022 12:20:24 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:20:24 PM DEBUG:diff parser end
+10/18/2022 12:20:33 PM DEBUG:diff parser start
+10/18/2022 12:20:33 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 12:20:33 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 12:20:33 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:20:33 PM DEBUG:diff parser end
+10/18/2022 12:20:38 PM DEBUG:diff parser start
+10/18/2022 12:20:38 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 12:20:38 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 12:20:38 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:20:38 PM DEBUG:diff parser end
+10/18/2022 12:20:40 PM DEBUG:diff parser start
+10/18/2022 12:20:40 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 12:20:40 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 12:20:40 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:20:40 PM DEBUG:diff parser end
+10/18/2022 12:20:42 PM DEBUG:diff parser start
+10/18/2022 12:20:42 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 12:20:42 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 12:20:42 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 12:20:42 PM DEBUG:diff parser end
+10/18/2022 10:26:12 PM DEBUG:diff parser start
+10/18/2022 10:26:12 PM DEBUG:line_lengths old: 1; new: 4
+10/18/2022 10:26:12 PM DEBUG:-> code[replace] old[1:1] new[1:4]
+10/18/2022 10:26:12 PM DEBUG:parse_part from 1 to 4 (to 3 in part parser)
+10/18/2022 10:26:12 PM DEBUG:diff parser end
+10/18/2022 10:26:18 PM DEBUG:diff parser start
+10/18/2022 10:26:18 PM DEBUG:line_lengths old: 4; new: 4
+10/18/2022 10:26:18 PM DEBUG:-> code[equal] old[1:3] new[1:3]
+10/18/2022 10:26:18 PM DEBUG:copy old[1:3] new[1:3]
+10/18/2022 10:26:18 PM DEBUG:-> code[replace] old[4:4] new[4:4]
+10/18/2022 10:26:18 PM DEBUG:parse_part from 4 to 4 (to 3 in part parser)
+10/18/2022 10:26:18 PM DEBUG:diff parser end
+10/18/2022 10:26:18 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/requests/__init__.py
+10/18/2022 10:26:28 PM DEBUG:Starting new HTTPS connection (1): celestrak.org:443
+10/18/2022 10:26:29 PM DEBUG:https://celestrak.org:443 "GET /NORAD/elements/gp.php?CATNR=27540&FORMAT=TLE HTTP/1.1" 200 168
+10/18/2022 10:26:34 PM DEBUG:diff parser start
+10/18/2022 10:26:34 PM DEBUG:line_lengths old: 4; new: 1
+10/18/2022 10:26:34 PM DEBUG:-> code[replace] old[1:4] new[1:1]
+10/18/2022 10:26:34 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:26:34 PM DEBUG:diff parser end
+10/18/2022 10:26:34 PM DEBUG:pickle loaded: /usr/lib/python3.10/site-packages/requests/models.py
+10/18/2022 10:26:35 PM DEBUG:diff parser start
+10/18/2022 10:26:35 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:26:35 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:26:35 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:26:35 PM DEBUG:diff parser end
+10/18/2022 10:31:23 PM DEBUG:diff parser start
+10/18/2022 10:31:23 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:31:23 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:31:23 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:31:23 PM DEBUG:diff parser end
+10/18/2022 10:42:05 PM DEBUG:diff parser start
+10/18/2022 10:42:05 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:42:05 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:42:05 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:42:05 PM DEBUG:diff parser end
+10/18/2022 10:42:30 PM DEBUG:diff parser start
+10/18/2022 10:42:30 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:42:30 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:42:30 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:42:30 PM DEBUG:diff parser end
+10/18/2022 10:47:30 PM DEBUG:diff parser start
+10/18/2022 10:47:30 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:47:30 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:47:30 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:47:30 PM DEBUG:diff parser end
+10/18/2022 10:47:30 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/earth.py
+10/18/2022 10:47:30 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/__init__.py
+10/18/2022 10:47:30 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/core.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/quantity.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/si.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/astrophys.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/photometric.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/cgs.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/physical.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/function/__init__.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/function/units.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/misc.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/equivalencies.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/function/core.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/function/logarithmic.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/structured.py
+10/18/2022 10:47:31 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/units/decorators.py
+10/18/2022 10:47:32 PM DEBUG:diff parser start
+10/18/2022 10:47:32 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:47:32 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:47:32 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:47:32 PM DEBUG:diff parser end
+10/18/2022 10:47:33 PM DEBUG:diff parser start
+10/18/2022 10:47:33 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:47:33 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:47:33 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:47:33 PM DEBUG:diff parser end
+10/18/2022 10:47:43 PM DEBUG:diff parser start
+10/18/2022 10:47:43 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:47:43 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:47:43 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:47:43 PM DEBUG:diff parser end
+10/18/2022 10:48:04 PM DEBUG:diff parser start
+10/18/2022 10:48:04 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:04 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:04 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:04 PM DEBUG:diff parser end
+10/18/2022 10:48:07 PM DEBUG:diff parser start
+10/18/2022 10:48:07 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:07 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:07 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:07 PM DEBUG:diff parser end
+10/18/2022 10:48:11 PM DEBUG:diff parser start
+10/18/2022 10:48:11 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:11 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:11 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:11 PM DEBUG:diff parser end
+10/18/2022 10:48:13 PM DEBUG:diff parser start
+10/18/2022 10:48:13 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:13 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:13 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:13 PM DEBUG:diff parser end
+10/18/2022 10:48:18 PM DEBUG:diff parser start
+10/18/2022 10:48:18 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:18 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:18 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:18 PM DEBUG:diff parser end
+10/18/2022 10:48:38 PM DEBUG:diff parser start
+10/18/2022 10:48:38 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:38 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:38 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:38 PM DEBUG:diff parser end
+10/18/2022 10:48:39 PM DEBUG:diff parser start
+10/18/2022 10:48:39 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:39 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:39 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:39 PM DEBUG:diff parser end
+10/18/2022 10:48:48 PM DEBUG:diff parser start
+10/18/2022 10:48:48 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:48 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:48 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:48 PM DEBUG:diff parser end
+10/18/2022 10:48:49 PM DEBUG:diff parser start
+10/18/2022 10:48:49 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:49 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:49 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:49 PM DEBUG:diff parser end
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/sky_coordinate_parsers.py
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/baseframe.py
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/builtin_frames/__init__.py
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/builtin_frames/icrs.py
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/builtin_frames/baseradec.py
+10/18/2022 10:48:49 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/representation.py
+10/18/2022 10:48:51 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/transformations.py
+10/18/2022 10:48:51 PM DEBUG:diff parser start
+10/18/2022 10:48:51 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 10:48:51 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 10:48:51 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 10:48:51 PM DEBUG:diff parser end
+10/18/2022 10:48:52 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/angles.py
+10/18/2022 10:48:53 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/numeric.py
+10/18/2022 10:48:53 PM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/numpy/core/numeric.pyi
+10/18/2022 11:04:45 PM DEBUG:diff parser start
+10/18/2022 11:04:45 PM DEBUG:line_lengths old: 1; new: 1
+10/18/2022 11:04:45 PM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/18/2022 11:04:45 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/18/2022 11:04:45 PM DEBUG:diff parser end
+10/19/2022 11:16:45 AM DEBUG:diff parser start
+10/19/2022 11:16:45 AM DEBUG:line_lengths old: 1; new: 1
+10/19/2022 11:16:45 AM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/19/2022 11:16:45 AM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/19/2022 11:16:45 AM DEBUG:diff parser end
+10/19/2022 11:16:54 AM DEBUG:diff parser start
+10/19/2022 11:16:54 AM DEBUG:line_lengths old: 1; new: 1
+10/19/2022 11:16:54 AM DEBUG:-> code[replace] old[1:1] new[1:1]
+10/19/2022 11:16:54 AM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/19/2022 11:16:54 AM DEBUG:diff parser end
+10/19/2022 11:18:58 AM DEBUG:diff parser start
+10/19/2022 11:18:58 AM DEBUG:line_lengths old: 1; new: 2
+10/19/2022 11:18:58 AM DEBUG:-> code[replace] old[1:1] new[1:2]
+10/19/2022 11:18:58 AM DEBUG:parse_part from 1 to 2 (to 1 in part parser)
+10/19/2022 11:18:58 AM DEBUG:diff parser end
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/errors.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/attributes.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/distances.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/builtin_frames/ecliptic.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/matching.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/funcs.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/calculation.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/solar_system.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/spectral_quantity.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/spectral_coordinate.py
+10/19/2022 11:18:58 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/coordinates/angle_utilities.py
+10/19/2022 11:18:59 AM DEBUG:pickle loaded: /usr/local/lib64/python3.10/site-packages/astropy/time/core.py
+10/19/2022 12:09:39 PM DEBUG:diff parser start
+10/19/2022 12:09:39 PM DEBUG:line_lengths old: 2; new: 1
+10/19/2022 12:09:39 PM DEBUG:-> code[replace] old[1:2] new[1:1]
+10/19/2022 12:09:39 PM DEBUG:parse_part from 1 to 1 (to 0 in part parser)
+10/19/2022 12:09:39 PM DEBUG:diff parser end
+10/19/2022 12:09:40 PM DEBUG:pickle loaded: /home/limu/.local/lib/python3.10/site-packages/matplotlib/pyplot.py
