@@ -1,7 +1,11 @@
+## Software development
+
+### Planner
+```mermaid
 ---
 config:
   kanban:
-    ticketBaseUrl: 'https://mermaidchart.atlassian.net/browse/#TICKET#'
+    ticketBaseUrl: 'https://quvik.cz/browse/#TICKET#'
 ---
 kanban
   Todo
@@ -21,3 +25,4 @@ kanban
 
   id12[Can't reproduce]
     id3[Weird flickering in Firefox]
+```
