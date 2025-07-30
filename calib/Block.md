@@ -24,6 +24,16 @@ gantt
     Design, definition of quality criteria and data products : 	after m1	, 690d
     Implementation of astrometry and photometry processing pipelines : 	after m1 , 1140d
     Pipeline testing and verification on synthetic data : pp, after cdr, until frr
+    Strategy for performance balancing, redundancy and non-standard observations :  2025-06-15 , 1440d
+    Realistic Observation Simulation :  2026-06-10 , 1080d
+    Pipeline testing and verification on synthetic data :  2026-06-10 , 1260d
+    Post-launch performance verification on real data :  2029-12-21 , 420d
+    Updating the pipelines based on the first months :  2029-12-21 , 420d
+    Dissemination of tools and documentation for processing :  2029-12-21 , 420d
+     User support (on ground data handling & data archive) :  2030-03-21 , 330d
+     Archive structure design and development :  2025-06-15 , 1620d
+     Maintenance and quality verification :  2029-06-24 , 600d
+     Web interface :  2027-06-05 , 900d
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , 1620d
