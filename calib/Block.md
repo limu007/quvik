@@ -18,15 +18,22 @@ gantt
     Phase E : e1, after frr, 81w
     Comission : e2, after frr, 13w
     IOCR : milestone, iocr, after e2, 1d
-    
+
+    section Payload
+    Calculations of sensitivities for various scenarios :  after m1 , 220d 
+    Ground calibration efforts :  after m1 , 221d 
+    Support of the detector implementation :  after m1 , 222d 
+    Design of in-flight calibration procedures :  after m1 , 1332d 
+    Post-launch calibration efforts :  after frr , until iocr 
+
     section PDGS
     Setting up and commissioning the IT infrastructure : after m1, 330d
     Design, definition of quality criteria and data products : 	after m1	, 690d
     Implementation of astrometry and photometry processing pipelines : 	after m1 , 1140d
     Pipeline testing and verification on synthetic data : pp, after cdr, until frr
-    Strategy for performance balancing, redundancy and non-standard observations :  2025-06-15 , 1440d
-    Realistic Observation Simulation :  2026-06-10 , 1080d
-    Pipeline testing and verification on synthetic data :  2026-06-10 , 1260d
+    Strategy for performance balancing, redundancy and non-standard observations :  after m1 , 1440d
+    Realistic Observation Simulation :  after pdr , 1080d
+    Pipeline testing and verification on synthetic data :  after pdr , 1260d
     Post-launch performance verification on real data :  2029-12-21 , 420d
     Updating the pipelines based on the first months :  2029-12-21 , 420d
     Dissemination of tools and documentation for processing :  2029-12-21 , 420d
