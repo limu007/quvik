@@ -20,10 +20,10 @@ gantt
     IOCR : milestone, iocr, after e2, 1d
 
     section Payload
-    Calculations of sensitivities for various scenarios :  after m1 , 220d 
-    Ground calibration efforts :  after m1 , 221d 
-    Support of the detector implementation :  after m1 , 222d 
-    Design of in-flight calibration procedures :  after m1 , 1332d 
+    Calculations of sensitivities for various scenarios :  after m1 , until cdr
+    Ground calibration efforts :  after m1 , until ar
+    Support of the detector implementation :  after m1 , until ar 
+    Design of in-flight calibration procedures :  after m1 , until frr
     Post-launch calibration efforts :  after frr , until iocr 
 
     section PDGS
