@@ -24,7 +24,7 @@ gantt
     Ground calibration efforts :  after m1 , until ar
     Support of the detector implementation :  after m1 , until ar 
     Design of in-flight calibration procedures :  after m1 , until frr
-    Post-launch calibration efforts :  after frr , until iocr 
+    Post-launch calibration efforts :  after frr , 81w 
 
     section PDGS
     Setting up and commissioning the IT infrastructure : after m1, 330d
@@ -34,13 +34,13 @@ gantt
     Strategy for performance balancing, redundancy and non-standard observations :  after m1 , 1440d
     Realistic Observation Simulation :  after pdr , 1080d
     Pipeline testing and verification on synthetic data :  after pdr , 1260d
-    Post-launch performance verification on real data :  2029-12-21 , 420d
-    Updating the pipelines based on the first months :  2029-12-21 , 420d
-    Dissemination of tools and documentation for processing :  2029-12-21 , 420d
-     User support (on ground data handling & data archive) :  2030-03-21 , 330d
-     Archive structure design and development :  2025-06-15 , 1620d
-     Maintenance and quality verification :  2029-06-24 , 600d
-     Web interface :  2027-06-05 , 900d
+    Post-launch performance verification on real data :  after frr , 420d
+    Updating the pipelines based on the first months :  after frr , 420d
+    Dissemination of tools and documentation for processing :  after frr , 420d
+     User support (on ground data handling & data archive) :  after iocr , 330d
+     Archive structure design and development :  after m1 , 1620d
+     Maintenance and quality verification :  after ar , 600d
+     Web interface :  after sc1 , 900d
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , 1620d
