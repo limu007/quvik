@@ -29,7 +29,7 @@ gantt
     section PDGS
     Setting up and commissioning the IT infrastructure : after m1, until pdr
     Design, definition of quality criteria and data products : 	des, after m1	, 104w
-    Implementation of astrometry and photometry processing pipelines : 	after m1 , until irr
+    Implementation of astrometry and photometry processing pipelines : 	after m1 , 39m
     Pipeline testing and verification on synthetic data : pp, after cdr, until frr
     Strategy for performance balancing, redundancy and non-standard observations :  after m1 , until arr
     Realistic Observation Simulation :  after pdr , until ar
