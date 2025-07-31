@@ -9,7 +9,7 @@ gantt
     Phase B2 : b2, after m1, 52w
     PDR : milestone, pdr, after b2, 1d
     Phase C : c1, after pdr, 77w
-    subCDR :  milestone, sc1, after pdr + 52w, 1d
+    subCDR :  milestone, sc1, after des, 1d
     CDR : milestone, cdr, after c1, 1d
     Phase D : d1, after cdr, 81w
     IRR : milestone, irr, after d1, 1d
@@ -28,7 +28,7 @@ gantt
 
     section PDGS
     Setting up and commissioning the IT infrastructure : after m1, until pdr
-    Design, definition of quality criteria and data products : 	after m1	, until sc1
+    Design, definition of quality criteria and data products : 	des, after m1	, 104w
     Implementation of astrometry and photometry processing pipelines : 	after m1 , until irr
     Pipeline testing and verification on synthetic data : pp, after cdr, until frr
     Strategy for performance balancing, redundancy and non-standard observations :  after m1 , until arr
