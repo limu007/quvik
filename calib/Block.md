@@ -27,20 +27,20 @@ gantt
     Post-launch calibration efforts :  after frr , 81w 
 
     section PDGS
-    Setting up and commissioning the IT infrastructure : after m1, 330d
-    Design, definition of quality criteria and data products : 	after m1	, 690d
-    Implementation of astrometry and photometry processing pipelines : 	after m1 , 1140d
+    Setting up and commissioning the IT infrastructure : after m1, until pdr
+    Design, definition of quality criteria and data products : 	after m1	, until sc1
+    Implementation of astrometry and photometry processing pipelines : 	after m1 , until irr
     Pipeline testing and verification on synthetic data : pp, after cdr, until frr
-    Strategy for performance balancing, redundancy and non-standard observations :  after m1 , 1440d
-    Realistic Observation Simulation :  after pdr , 1080d
-    Pipeline testing and verification on synthetic data :  after pdr , 1260d
+    Strategy for performance balancing, redundancy and non-standard observations :  after m1 , until arr
+    Realistic Observation Simulation :  after pdr , until ar
+    Pipeline testing and verification on synthetic data :  after pdr , until frr
     Post-launch performance verification on real data :  after frr , 420d
     Updating the pipelines based on the first months :  after frr , 420d
     Dissemination of tools and documentation for processing :  after frr , 420d
      User support (on ground data handling & data archive) :  after iocr , 330d
-     Archive structure design and development :  after m1 , 1620d
-     Maintenance and quality verification :  after ar , 600d
-     Web interface :  after sc1 , 900d
+     Archive structure design and development :  after m1 , until frr
+     Maintenance and quality verification :  after ar , 81w
+     Web interface :  after sc1 , until frr
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , 1620d
