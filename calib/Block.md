@@ -29,11 +29,10 @@ gantt
     Setting up and commissioning the IT infrastructure : after m1, until pdr
     Design, definition of quality criteria and data products : 	des, after m1	, 104w
     Implementation of astrometry and photometry processing pipelines :crit, imp, after m1 , 169w
-    Pipeline testing and verification on synthetic data : pp, after cdr, until frr
+    Pipeline testing and verification on synthetic data :crit,  pp, after cdr, until frr
     Strategy for performance balancing, redundancy and non-standard observations :  after m1 , until ar
     Realistic Observation Simulation :  after pdr , until ar
-    Pipeline testing and verification on synthetic data :  after pdr , until frr
-    Post-launch performance verification on real data :  after frr , 420d
+    Post-launch performance verification on real data :crit,   after frr , 420d
     Updating the pipelines based on the first months :  after frr , 420d
     Dissemination of tools and documentation for processing :  after frr , 420d
      User support (on ground data handling & data archive) :  after iocr , 330d
@@ -43,14 +42,14 @@ gantt
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , 1620d
-    Development of a permanently opened proposal system :crit,  after sc1 , 900d
+    Development of a permanently opened proposal system : after sc1 , 900d
     Optimisation based on in-orbit performance :  after iocr , 330d
     Algorithms to identify transients for followup :  after m1 , 1620d
     Strategy for optimal followup of kilonovae :  after m1 , 1620d
     Optimisation of ToO observation procedures based on early performance :  after iocr , 330d
 
     section Operations
-    Comissioning :crit, e2, after frr, 13w
-    Science operations :crit, e3, after iocr, 52w
+    Comissioning : e2, after frr, 13w
+    Science operations : e3, after iocr, 52w
 
 ```
