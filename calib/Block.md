@@ -16,7 +16,6 @@ gantt
     AR : milestone, ar, after d1, 1d
     Launch : crit, milestone, frr, after dcal, 1d
     Phase E : e1, after ar, 81w
-    Comission : e2, after frr, 13w
     IOCR : milestone, iocr, after e2, 1d
 
     section Payload
@@ -49,4 +48,9 @@ gantt
     Algorithms to identify transients for followup :  after m1 , 1620d
     Strategy for optimal followup of kilonovae :  after m1 , 1620d
     Optimisation of ToO observation procedures based on early performance :  after iocr , 330d
+
+    section Operations
+    Comissioning : e2, after frr, 13w
+    Science operations : e3, after iocr, 52w
+
 ```
