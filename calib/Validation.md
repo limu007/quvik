@@ -12,8 +12,8 @@ flowchart TB
   TP["Test Procedure"]
   TR["Test Report"]
 
-meth{"Verification by more methods?"}
-close{"Verification Closeout?"}
+  meth{"Verification by more methods?"}
+  close{"Verification Closeout?"}
   
   TEST --> TS --> TP --> TR --> meth
   TRS --> VM
