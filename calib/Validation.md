@@ -7,10 +7,18 @@ flowchart TB
   VM["Verification matrix"]
   VCD[(Verification Control Datab.)]
 
-  TEST["TEST"]
+  TEST[["TEST"]]
   TS["Test Specification"]
   TP["Test Procedure"]
   TR["Test Report"]
+
+  ANAL[["ANALYSIS"]]
+  MM["mathematical modelling"]
+  SM["Similarity analysis"]
+  AR["Analysis Report"]
+
+  ROD[["`REVIEW
+  of design`"]]
 
   meth{"Verification by more methods?"}
   close{"Verification Closeout?"}
@@ -18,6 +26,11 @@ flowchart TB
   TEST --> TS --> TP --> TR --> meth
   TRS --> VM
   TRS --> TS
+  TRS --> ANAL
+  ANAL --> MM --> AR
+  ANAL --> SM --> AR
+  AR --> meth
+  TRS --> ROD
   meth --> close --> VCD
 
 ```
