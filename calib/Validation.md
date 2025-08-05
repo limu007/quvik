@@ -18,6 +18,6 @@ flowchart TB
   TEST --> TS --> TP --> TR --> meth
   TRS --> VM
   TRS --> TS
-  meth -> close -> VCD
+  meth --> close --> VCD
 
 ```
