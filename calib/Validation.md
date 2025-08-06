@@ -17,7 +17,7 @@ flowchart TB
   TR["Test Report"]
 
   INS[["INSPECTION"]]
-  IT["Inspect. report"]
+  IR["Inspect. report"]
   ANAL[["ANALYSIS"]]
   MM["Mathematical modelling"]
   MV["Model Validation"]
