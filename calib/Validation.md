@@ -26,18 +26,19 @@ flowchart TB
 
   ROD[["`REVIEW
   of design`"]]
+  RR["ROD report"]
 
   meth{"Verification by more methods?"}
   close{"Verification Closeout?"}
   
   TEST --> TS --> TP --> TE --> TR --> meth
-  TRS --> VM
+  TRS --> VM --> AIV
   TRS --> TS
   AIV --> TEST
   AIV --> ANAL
   ANAL --> MM --> MV --> AR
   ANAL --> SM --> AR --> meth
-  AIV --> ROD
+  AIV --> ROD --> RR --> meth
   AIV --> INS --> IR --> meth
   MM --> TPC
   TE --> TPC --> MV 
