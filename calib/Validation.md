@@ -10,13 +10,12 @@ flowchart TD
 
   AIV["AIV plan"]
 
-  subgraph
     TEST[["TEST"]]
     INS[["INSPECTION"]]
     ANAL[["ANALYSIS"]]
     ROD[["`REVIEW
     of design`"]]
-  end
+
   TS["Test Specification"]
   TP["Test Procedure"]
   TE["Test Execution"]
