@@ -33,16 +33,21 @@ flowchart TD
 
   meth{"Verification by more methods?"}
   close{"Verification Closeout?"}
-  
+
+subgraph method
+  AIV --> TEST
+  AIV --> ANAL
+  AIV --> ROD
+  AIV --> INS
+end
   TEST --> TS --> TP --> TE --> TR --> meth
   TRS --> VM --> AIV
   TRS --> TS
-  AIV --> TEST
-  AIV --> ANAL
+  
   ANAL --> MM --> TPC --> MV --> AR
   ANAL --> SM --> AR --> meth
-  AIV --> ROD --> RR --> meth
-  AIV --> INS --> IR --> meth
+  ROD --> RR --> meth
+  INS --> IR --> meth
   MM --> MV
   TE --> TPC
   meth --> close --> VCD
