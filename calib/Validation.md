@@ -11,8 +11,13 @@ flowchart TB
   TEST[["TEST"]]
   TS["Test Specification"]
   TP["Test Procedure"]
+  TE["Test Execution"]
+  TPC["`Test Prediction
+& Correlation`"]
   TR["Test Report"]
 
+  INS[["INSPECTION"]]
+  IT["Inspect. report"]
   ANAL[["ANALYSIS"]]
   MM["Mathematical modelling"]
   MV["Model Validation"]
@@ -25,15 +30,17 @@ flowchart TB
   meth{"Verification by more methods?"}
   close{"Verification Closeout?"}
   
-  TEST --> TS --> TP --> TR --> meth
+  TEST --> TS --> TP --> TE --> TR --> meth
   TRS --> VM
   TRS --> TS
   AIV --> TEST
   AIV --> ANAL
   ANAL --> MM --> MV --> AR
-  ANAL --> SM --> AR
-  AR --> meth
+  ANAL --> SM --> AR --> meth
   AIV --> ROD
+  AIV --> INS --> IR --> meth
+  MM --> TPC
+  TE --> TPC --> MV 
   meth --> close --> VCD
 
 ```
