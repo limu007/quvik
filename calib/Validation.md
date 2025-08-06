@@ -39,12 +39,12 @@ flowchart TD
   TRS --> TS
   AIV --> TEST
   AIV --> ANAL
-  ANAL --> MM --> MV --> AR
+  ANAL --> MM --> TPC --> MV --> AR
   ANAL --> SM --> AR --> meth
   AIV --> ROD --> RR --> meth
   AIV --> INS --> IR --> meth
-  MM --> TPC
-  TE --> TPC --> MV 
+  MM --> MV
+  TE --> TPC
   meth --> close --> VCD
 
 ```
