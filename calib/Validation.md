@@ -52,6 +52,7 @@ end
   INS --> IR --> meth
   MM --> MV
   TE --> TPC
-  meth --> close --> VCD
+  meth --> close --yes--> VCD
+  close --no--> RD
 
 ```
