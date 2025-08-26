@@ -20,11 +20,11 @@ gantt
     Calculations of sensitivities for various scenarios :  after m1 , until cdr
     Ground calibration efforts :  after m1 , until ar
     Support of the detector implementation :  after m1 , until ar 
-    Design of in-flight calibration procedures :  dcal, after m1 , 234w
-    Post-launch calibration efforts :  after frr , 420d
+    Design of in-flight calibration procedures : crit, dcal, after m1 , 234w
+    Post-launch calibration efforts : crit, after frr , 420d
 
-    Design, definition of quality criteria and data products : 	des, after m1	, 104w
-    Implementation of astrometry and photometry processing pipelines :crit, imp, after m1 , 169w
+    ".." : 	des, after m1	, 104w
+    "...." : imp, after m1 , 169w
 
 
 ```
