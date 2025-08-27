@@ -25,6 +25,6 @@ gantt
 
     ".." : 	des, after m1	, 104w
     "...." : imp, after m1 , 169w
-
+    "......" : e2, after frr, 13w
 
 ```
