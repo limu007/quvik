@@ -23,6 +23,7 @@ gantt
     Design of in-flight calibration procedures : crit, dcal, after m1 , 234w
     Post-launch calibration efforts : crit, after frr , 420d
 
+    section Cutme 
     ".." : 	des, after m1	, 104w
     "...." : imp, after m1 , 169w
     "......" : e2, after frr, 13w
