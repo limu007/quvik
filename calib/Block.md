@@ -18,6 +18,12 @@ gantt
     Phase E : e1, after ar, 81w
     IOCR : milestone, iocr, after e2, 1d
 
+    section Payload
+    Calculations of sensitivities for various scenarios :  after m1 , until cdr
+    Ground calibration efforts :  after m1 , until ar
+    Support of the detector implementation :  after m1 , until ar 
+    Design of in-flight calibration procedures : crit, dcal, after m1 , 234w
+    Post-launch calibration efforts : crit, after frr , 420d
 
     section PDGS
     Setting up and commissioning the IT infrastructure : after m1, until pdr
