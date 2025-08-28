@@ -1,3 +1,10 @@
+.mermaid .dcal {
+    	fill: white !important;
+    	stroke: blue !important;
+    	stroke-width: 1.2 !important;
+    	opacity: 0.7 !important;
+    }
+
 ```mermaid
 gantt
     title QUVIK
