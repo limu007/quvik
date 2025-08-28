@@ -52,8 +52,4 @@ gantt
     Comissioning : e2, after frr, 13w
     Science operations : e3, after iocr, 52w
 
-    section Cutme
-    "..": dcal, after m1 , 234w
-    "......" : e2, after frr, 13w
-
 ```
