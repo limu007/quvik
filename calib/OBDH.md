@@ -1,7 +1,8 @@
 ```mermaid
 flowchart LR
+  classDef deC fill:#55a,stroke:#000,color:#bbb;
   subgraph s1[NUV Payload]
-    ia[Image Acquisition]::deC
+    ia[Image Acquisition]:::deC
   end
   subgraph s2[OBC]
     ip[Image PreProcessing] ==> st[(Storage)] --> dl[Downlink preparation]
@@ -22,7 +23,6 @@ flowchart LR
   ia --> ip
   dl --> gr --> fits --> pr
 
-  classDef deC fill:#55a,stroke:#000,color:#bbb;
   class ia deC;
 
 
