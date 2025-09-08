@@ -15,11 +15,14 @@ flowchart LR
   subgraph s5[SOC]
     pr[Data reduction]
   end
+  subgraph s0[AOCS]
+    ai(Attitude information) --> ip
+  end
 
   ia --> ip
   dl --> gr --> fits --> pr
 
-  classDef deC fill:#00f,stroke:#000,color:#bbb;
+  classDef deC fill:#008,stroke:#000,color:#bbb;
   class ia deC;
 
 
