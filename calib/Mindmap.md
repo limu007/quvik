@@ -26,7 +26,7 @@ graph LR
   id7["transients"] --- id15["criteria"];  style id15 stroke:#f9c440,stroke-width:4px;  linkStyle 22 stroke:#f9c440,stroke-width:4px;
   id7["transients"] --- id16["primary (KN)"];  style id16 stroke:#f9c440,stroke-width:4px;  linkStyle 23 stroke:#f9c440,stroke-width:4px;
   id7["transients"] --- id17["secondary"];  style id17 stroke:#f9c440,stroke-width:4px;  linkStyle 24 stroke:#f9c440,stroke-width:4px;
-  id17["secondary"] --- id18[""rareness" assesment"];  style id18 stroke:#f9c440,stroke-width:4px;  linkStyle 25 stroke:#f9c440,stroke-width:4px;
+  id17["secondary"] --- id18["rareness assesment"];  style id18 stroke:#f9c440,stroke-width:4px;  linkStyle 25 stroke:#f9c440,stroke-width:4px;
   id0["Scheduling"] --- id1["proposal system"];  style id1 stroke:#c6262e,stroke-width:4px;  linkStyle 26 stroke:#c6262e,stroke-width:4px;
   id1["proposal system"] --- id19["time allocation"];  style id19 stroke:#c6262e,stroke-width:4px;  linkStyle 27 stroke:#c6262e,stroke-width:4px;
   id1["proposal system"] --- id20["web interface"];  style id20 stroke:#c6262e,stroke-width:4px;  linkStyle 28 stroke:#c6262e,stroke-width:4px;
