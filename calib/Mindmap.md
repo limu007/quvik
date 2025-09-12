@@ -1,4 +1,4 @@
-### Configuration
+### PDGS Configuration Items
 ```mermaid
 graph LR
   id0["Scheduling"] --- id2["calibration"];  style id2 stroke:#f37329,stroke-width:4px;  linkStyle 0 stroke:#f37329,stroke-width:4px;
