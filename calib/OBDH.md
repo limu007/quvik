@@ -29,12 +29,10 @@ flowchart LR
 ```
 ```mermaid
 flowchart LR
-	df(subtract darkfield
-	divide by flatfield)
-	
-	fs[find stars (<12 mag), identify with catalogue (starting from ST position)
-	estimate PSF (size, distortion)  at different places of the image] -> <quality of PSF reaches TBD criteria (AOCS stability)> -> [mask cosmic ray track (comparison with previous image in stack)]
-	
+	df(subtract darkfield / divide by flatfield)
+	ql<quality of PSF reaches TBD criteria (AOCS stability)> --> [mask cosmic ray track (comparison with previous image in stack)]
+	fs[find stars brighter than 12 mag, identify with catalogue /starting from ST position/]
+	ws(estimate PSF /size, distortion/  at different places of the image)
 	zl(estimate and subtract zodiacal light)
 	am(identify stars / crossmatch with catalogue [astrometry])
 	pm(process apperture photometry / calculate zero mag)
@@ -44,8 +42,8 @@ flowchart LR
 		find outliers + acceptance range for all pixels in the CR stack]
 	bg[subtract previous exposure  (background galaxies)]
 	
-	df-> fs -> zl
-	zl -> am ->pm -> st -> fo -> si -> bg
+	df --> fs --> ql --> zl
+	zl --> am ->pm --> st --> fo --> si --> bg
 	tf <is transient found> -y-> (alert Scientist on Duty)
 
 ```
