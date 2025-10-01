@@ -1,5 +1,29 @@
 ```mermaid
 flowchart LR
+    df(subtract darkfield / divide by flatfield)
+	ql{quality of PSF reaches TBD criteria AOCS stability} --> crm(mask cosmic ray track - comparison with previous image in stack)
+    fs[find stars brighter than 12 mag, identify with catalogue /starting from ST position/]
+	ws(estimate PSF /size, distortion/  at different places of the image)
+	zl(estimate and subtract zodiacal light)
+	am(identify stars / crossmatch with catalogue - astrometry)
+	pm(process apperture photometry /<br/> calculate zero mag)
+	st(store corrected magnitudes in DB / check possible variability)
+	fo(find remaining objects)
+	si(stack images if required mag precision - exposure - is not reached)
+	bg(subtract previous exposure / background galaxies)
+	tf{is transient found} --yes--> SD(alert Scientist on Duty)
+	
+	subgraph Z[" "]
+    direction LR
+	df --> fs --> ws -->  ql
+    end
+    subgraph W[" "]
+    direction LR
+	zl --> am --> pm --> st --> fo --> si --> bg --> tf
+    end
+```
+```mermaid
+flowchart LR
   classDef deC fill:#55a,stroke:#000,color:#bbb;
   subgraph s1[NUV Payload]
     ia[Image Acquisition]:::deC
@@ -26,28 +50,4 @@ flowchart LR
   class ia deC;
 
 
-```
-```mermaid
-flowchart LR
-    df(subtract darkfield / divide by flatfield)
-	ql{quality of PSF reaches TBD criteria AOCS stability} --> crm(mask cosmic ray track - comparison with previous image in stack)
-    fs[find stars brighter than 12 mag, identify with catalogue /starting from ST position/]
-	ws(estimate PSF /size, distortion/  at different places of the image)
-	zl(estimate and subtract zodiacal light)
-	am(identify stars / crossmatch with catalogue - astrometry)
-	pm(process apperture photometry /<br/> calculate zero mag)
-	st(store corrected magnitudes in DB / check possible variability)
-	fo(find remaining objects)
-	si(stack images if required mag precision - exposure - is not reached)
-	bg(subtract previous exposure / background galaxies)
-	tf{is transient found} --yes--> SD(alert Scientist on Duty)
-	
-	subgraph Z[" "]
-    direction LR
-	df --> fs --> ws -->  ql
-    end
-    subgraph W[" "]
-    direction LR
-	zl --> am --> pm --> st --> fo --> si --> bg --> tf
-    end
 ```
