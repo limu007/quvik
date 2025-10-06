@@ -1,4 +1,9 @@
 ```mermaid
+---
+title: Hello Title
+config:
+    fontsize: 48
+---
 flowchart LR
     df(subtract darkfield / divide by flatfield)
 	ql{quality of PSF reaches TBD criteria AOCS stability} --> crm(mask cosmic ray track - comparison with previous image in stack)
