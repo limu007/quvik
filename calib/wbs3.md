@@ -23,5 +23,5 @@ flowchart TD
    w3e(coordinate plans with VZLU)
    w3f(get PA plan / deliverable list from ASI/INAF)
    w3g(development of a simulator of astronomical images for NUV payload)
-   (study of astrophysical and instrumental effects on background / PSF)
+   w3h(study of astrophysical and instrumental effects on background / PSF)
 ```
