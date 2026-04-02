@@ -15,17 +15,19 @@ gantt
     Phase E : e1, after far, 81w
     FinalR : milestone, fr, after e1, 1d
 
-    section Science team
+    section Management
     1.1 : after ko, until ir
     1.2 : after ir, until pdr
     1.3 : after pdr, until cdr
     1.4 : after cdr, until far
     1.5 : after far, until fr
+    section Requirements
     2.1 : after ko, until ir
     3.1 : after ko, until ir
+    section Science team
     4.1 : after ir, until pdr
     4.5 : after pdr, until cdr
-    4.2 : after ir, until pdr
+    4.2 SciRD : after ir, until pdr
     4.10 : after pdr, until cdr
     4.15 : after cdr, until far
     4.3 transients : after ir, until pdr
@@ -35,14 +37,15 @@ gantt
     4.20 : after far, until fr
     4.13 : after cdr, until far
     4.21 : after far, until fr
-    4.9 : after pdr, until cdr
+    4.9 campaign : after pdr, until cdr
     4.14 : after cdr, until far
-    4.6 : after ir, until pdr
+    4.22 : after far, until fr
+    4.6 paper : after ir, until pdr
+    4.18 : after far, until fr
     4.16 : after far, until fr
     4.17 : after far, until fr
-    4.18 : after far, until fr
     4.19 confer. : after far, 10w
-    4.22 : after far, until fr
+    section Consult
     5.1 : after ir, until pdr
     5.2 : after pdr, until cdr
     5.3 : after cdr, until far
