@@ -16,14 +16,36 @@ gantt
     FinalR : milestone, fr, after e1, 1d
 
     section Science team
+    1.1 : after ko, until ir
+    1.2 : after ir, until pdr
+    1.3 : after pdr, until cdr
+    1.4 : after cdr, until far
+    1.5 : after far, until fr
     2.1 : after ko, until ir
     3.1 : after ko, until ir
     4.1 : after ir, until pdr
     4.5 : after pdr, until cdr
     4.2 : after ir, until pdr
     4.10 : after pdr, until cdr
-    4.3 : after ir, until pdr
-    4.4 : after ir, 5m
-    4.5 : after ir, 5m
-    4.6 : after ir, 6m
+    4.15 : after cdr, until far
+    4.3 transients : after ir, until pdr
+    4.11 : after cdr, until far
+    4.8 ULTRASAT : after pdr, until cdr
+    4.12 : after cdr, until far
+    4.20 : after far, until fr
+    4.13 : after cdr, until far
+    4.21 : after far, until fr
+    4.9 : after pdr, until cdr
+    4.14 : after cdr, until far
+    4.6 : after ir, until pdr
+    4.16 : after far, until fr
+    4.17 : after far, until fr
+    4.18 : after far, until fr
+    4.19 confer. : after far, 10w
+    4.22 : after far, until fr
+    5.1 : after ir, until pdr
+    5.2 : after pdr, until cdr
+    5.3 : after cdr, until far
+    5.4 : after far, until fr
+
 ```
