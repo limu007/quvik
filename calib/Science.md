@@ -11,7 +11,8 @@ gantt
     CDR : milestone, cdr, after c1, 1d
     Phase D : d1, after cdr, 81w
     FAR : milestone, far, after d1, 1d
-    Launch : crit, milestone, frr, after far + 6m, 1d
+    Prep : prep, after far, 27w
+    Launch : crit, milestone, frr, after prep, 1d
     Phase E : e1, after far, 81w
     FinalR : milestone, fr, after e1, 1d
 
@@ -42,12 +43,12 @@ gantt
     4.5 campaigns : after ir, until pdr
     4.14 : after cdr, until far
     4.22 : after far, until fr
-    4.6 paper : after pdr, 3m
+    4.6 paper : after pdr, 14w
     4.18 : after far, until fr
     4.16 obs. plan update : after far, until fr
     4.17 proposal evaluation : after far, until fr
-    4.7 confer.1 : after pdr, 2m
-    4.19 confer.2 : after launch, 2m
+    4.7 confer.1 : after pdr, 10w
+    4.19 confer.2 : after frr, 10w
     section Consult
     5.1 : after ir, until pdr
     5.2 : after pdr, until cdr
