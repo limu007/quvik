@@ -28,10 +28,10 @@ gantt
     section Science team
     4.1 : after ir, until pdr
     4.5 : after pdr, until cdr
-    4.2 SciRD : after ir, until pdr
-    4.10 : after pdr, until cdr
-    4.15 : after cdr, until far
-    4.11 : after cdr, until far
+    4.2 SciRD : crit, after ir, until pdr
+    4.10 : crit, after pdr, until cdr
+    4.15 : crit, after cdr, until far
+    4.11 : crit, after cdr, until far
     4.3 ULTRASAT : after ir, until pdr
     4.8 : after pdr, until cdr
     4.12 : after cdr, until far
