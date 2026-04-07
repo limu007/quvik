@@ -26,7 +26,7 @@ gantt
     2.1 : after ko, until ir
     3.1 : after ko, until ir
     section Science team
-    4.1 : after ir, until pdr
+    4.1 science case : after ir, until pdr
     4.5 : after pdr, until cdr
     4.2 SciRD : crit, after ir, until pdr
     4.10 : crit, after pdr, until cdr
