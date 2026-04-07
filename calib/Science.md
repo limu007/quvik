@@ -30,19 +30,21 @@ gantt
     4.2 SciRD : after ir, until pdr
     4.10 : after pdr, until cdr
     4.15 : after cdr, until far
-    4.3 transients : after ir, until pdr
     4.11 : after cdr, until far
-    4.8 ULTRASAT : after pdr, until cdr
+    4.3 ULTRASAT : after ir, until pdr
+    4.8 : after pdr, until cdr
     4.12 : after cdr, until far
     4.20 : after far, until fr
+    4.4 transients : after ir, until pdr
+    4.9 : after pdr, until cdr
     4.13 : after cdr, until far
     4.21 : after far, until fr
-    4.9 campaign : after pdr, until cdr
+    4.5 campaigns : after ir, until pdr
     4.14 : after cdr, until far
     4.22 : after far, until fr
     4.6 paper : after ir, until pdr
     4.18 : after far, until fr
-    4.16 : after far, until fr
+    4.16 obs. plan : after far, until fr
     4.17 : after far, until fr
     4.19 confer. : after far, 10w
     section Consult
