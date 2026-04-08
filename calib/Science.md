@@ -28,18 +28,18 @@ gantt
     section Science team
     4.1 science case : after ir, until pdr
     4.5 : after pdr, until cdr
-    4.2 SciRD : crit, after ir, until pdr
-    4.10 : crit, after pdr, until cdr
-    4.15 : crit, after cdr, until far
+    4.2 SciRD : after ir, until pdr
+    4.10 : after pdr, until cdr
+    4.15 : after cdr, until far
     4.11 target priority updt. : after cdr, until far
     4.3 ULTRASAT : after ir, until pdr
     4.8 : after pdr, until cdr
     4.12 : after cdr, until far
     4.20 : after far, until fr
-    4.4 transients : after ir, until pdr
-    4.9 : after pdr, until cdr
-    4.13 : after cdr, until far
-    4.21 : after far, until fr
+    4.4 transients : crit, after ir, until pdr
+    4.9 : crit, after pdr, until cdr
+    4.13 : crit, after cdr, until far
+    4.21 : crit, after far, until fr
     4.5 campaigns : after ir, until pdr
     4.14 : after cdr, until far
     4.22 : after far, until fr
@@ -53,6 +53,6 @@ gantt
     5.1 : after ir, until pdr
     5.2 : after pdr, until cdr
     5.3 : after cdr, until far
-    5.4 : crit, after far, until fr
+    5.4 : after far, until fr
 
 ```
