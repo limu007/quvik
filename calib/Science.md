@@ -6,11 +6,11 @@ gantt
     Init Phase : b1, after ko, 9w
     QIR : milestone, ir, after b1, 1d
     Phase B2 : b2, after ir, 43w
-    QR2 : milestone, pdr, after b2, 1d
+    QR1 : milestone, pdr, after b2, 1d
     Phase C : c1, after pdr, 77w
-    CDR : milestone, cdr, after c1, 1d
+    QR2 : milestone, cdr, after c1, 1d
     Phase D : d1, after cdr, 81w
-    FAR : milestone, far, after d1, 1d
+    QR3 : milestone, far, after d1, 1d
     Prep : prep, after far, 27w
     Launch : crit, milestone, frr, after prep, 1d
     Phase E : e1, after far, 81w
