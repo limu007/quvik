@@ -24,7 +24,7 @@ gantt
     1.5 : after far, until fr
     section Requirements
     2.1 : after ko, until ir
-    3.1 : after ko, until ir
+    3.1 : after ko, until pdr
     section Science team
     4.1 science case : after ir, until fr
     4.2 SciRD : after ir, until pdr
@@ -49,9 +49,7 @@ gantt
     4.7 confer.1 : after pdr, 10w
     4.19 confer.2 : after frr, 10w
     section Consult
-    5.1 : after ir, until pdr
-    5.2 : after pdr, until cdr
-    5.3 : after cdr, until far
-    5.4 : after far, until fr
-
+    5.1 : after pdr, until cdr
+    5.2 : after cdr, until far
+    
 ```
