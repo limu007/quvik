@@ -42,9 +42,9 @@ gantt
     4.14 : after cdr, until far
     4.22 : after far, until fr
     4.6 paper : after pdr, 14w
-    4.11 target priority updt. : after cdr, until far
+    4.11 obs. plan / priority updt. : after cdr, until far
     4.18 : after far, until fr
-    4.16 obs. plan update : after far, until fr
+    4.16 comissioning : after far, until fr
     4.17 proposal evaluation : after far, until fr
     4.7 confer.1 : after pdr, 10w
     4.19 confer.2 : after frr, 10w
