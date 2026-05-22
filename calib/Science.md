@@ -2,7 +2,7 @@
 gantt
     title QUMASS
     dateFormat  YYYY-MM-DD
-    Kick Off : milestone, ko, 2026-05-14, 1d
+    Kick Off : milestone, ko, 2026-07-01, 1d
     Init Phase : b1, after ko, 9w
     QIR : milestone, ir, after b1, 1d
     Phase B2 : b2, after ir, 43w
