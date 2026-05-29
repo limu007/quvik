@@ -34,14 +34,14 @@ gantt
     4.8 : after pdr, until cdr
     4.12 : after cdr, until far
     4.20 : after far, until fr
-    4.4 transients : crit, after ir, until pdr
-    4.9 : crit, after pdr, until cdr
-    4.13 : crit, after cdr, until far
-    4.21 : crit, after far, until fr
+    4.4 transients : after ir, until pdr
+    4.9 : after pdr, until cdr
+    4.13 : after cdr, until far
+    4.21 : after far, until fr
     4.5 campaigns : after pdr, until cdr
     4.14 : after cdr, until far
     4.22 : after far, until fr
-    4.6 paper : after pdr, 14w
+    4.6 paper : after pdr, 12m
     4.11 obs. plan / priority updt. : after cdr, until far
     4.18 : after far, until fr
     4.16 comissioning : after far, until fr
