@@ -41,7 +41,7 @@ gantt
     4.5 campaigns : after pdr, until cdr
     4.14 : after cdr, until far
     4.22 : after far, until fr
-    4.6 paper : after pdr, 12m
+    4.6 paper : after pdr, 54w
     4.11 obs. plan / priority updt. : after cdr, until far
     4.18 : after far, until fr
     4.16 comissioning : after far, until fr
