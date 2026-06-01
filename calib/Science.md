@@ -5,9 +5,9 @@ gantt
     Kick Off : milestone, ko, 2026-07-01, 1d
     Init Phase : b1, after ko, 9w
     QIR : milestone, ir, after b1, 1d
-    Phase B2 : b2, after ir, 43w
+    Phase B2 : b2, after ir, 63w
     QR1 : milestone, pdr, after b2, 1d
-    Phase C : c1, after pdr, 77w
+    Phase C : c1, after pdr, 81w
     QR2 : milestone, cdr, after c1, 1d
     Phase D : d1, after cdr, 81w
     QR3 : milestone, far, after d1, 1d
