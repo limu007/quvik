@@ -52,5 +52,6 @@ gantt
     5.1 : after ir, until pdr
     5.2 : after pdr, until cdr
     5.3 : after cdr, until far
+    5.4 : after far, until fr
     
 ```
