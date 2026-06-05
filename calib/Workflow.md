@@ -3,7 +3,7 @@
 ### Planner
 ```mermaid
 flowchart TD
-a[WP1.8.70 Management
+a[WPX.8.70 Management
 N. Werner] --> b[WPX.2.21	Validation of Payload Design
 J.Řípa]
 a --> c[WPX.5.4.1 	Pipeline design
@@ -12,6 +12,21 @@ a --> d[WPX.5.4.2	Scheduling algorithm and alert selection
 F. Münz]
 a-->e[WPX.7.70	PA/QA
 M. Viskotová]
+
+```
+```mermaid
+flowchart TD
+a[WP4.8.70 Management
+N. Werner] --> b[WP4.2.21	Validation of Payload Design
+J.Řípa]
+a --> c[WP4.5.4.1 	Pipeline design
+F. Münz]
+a --> d[WP4.5.4.2	Scheduling algorithm and alert selection
+F. Münz]
+a-->e[WP4.7.70	PA/QA
+M. Viskotová]
+a-->f[WP4.5.4.3	Science operations
+N. Werner]
 
 ```
 
