@@ -11,7 +11,7 @@ F. Münz]
 a --> d[WPX.5.4.2	Scheduling algorithm and alert selection
 F. Münz]
 a-->e[WPX.7.70	PA/QA
-M. Viskotová]
+PA/QA manager]
 
 ```
 ```mermaid
@@ -24,9 +24,9 @@ F. Münz]
 a --> d[WP4.5.4.2	Scheduling algorithm and alert selection
 F. Münz]
 a-->e[WP4.7.70	PA/QA
-M. Viskotová]
+PA/QA manager]
 a-->f[WP4.5.4.3	Science operations
-N. Werner]
+Science Ops. Lead]
 
 ```
 
