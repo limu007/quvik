@@ -12,7 +12,7 @@ gantt
     Phase D : d1, after cdr, 668d
     IRR : milestone, irr, after imp, 1d
     AR : milestone, ar, after d1, 1d
-    Launch : crit, milestone, frr, after dcal, 1d
+    Launch : crit, milestone, frr, after fol, 1d
     Phase E : e1, after ar, 578d
     IOCR : milestone, iocr, after e2, 1d
 
@@ -36,8 +36,8 @@ gantt
     Observation planning algorithm and pipeline :  after m1 , 1620d
     Development of a permanently opened proposal system : after sc1 , 900d
     Optimisation based on in-orbit performance :  after iocr , 330d
-    Algorithms to identify transients for followup :  after m1 , 1620d
-    Strategy for optimal followup of kilonovae :  after m1 , 1620d
+    Algorithms to identify transients for followup : fol, after m1 , 1620d
+    Tunning strategy for optimal followup  :  after d1 , 183d
     Optimisation of ToO observation procedures based on early performance :  after iocr , 330d
 
     section Operations
@@ -45,17 +45,17 @@ gantt
     Science operations : e3, after iocr, 52w
 
     section Software
-Schedule merit function: SD-2, after pdr, 212d
-Observation planner: SD-2, after pdr, 364d
-Observation plan visualization: SD-3, after pdr, 182d
-Observation Simulation tool: SD-4, after pdr, 729d
-Calibration pipeline: SD-5, after pdr, 729d
-Refined astrometry pipeline: SD-6, after pdr, 486d
-Standard photometry pipeline: SD-7, after pdr, 729d
-Photometry performance visualization: SD-8, after pdr, 547d
-Transient search module: SD-9, after pdr, 364d
-GW source (treasure map) ToO planner (treatment of HealPix maps): SD-10, after pdr, 364d
-Adapted ToO broker for most common facilities: SD-11, after pdr, 547d
-Archive and data product database (design, synchronization tools): SD-12, after pdr, 729d
-Data product web interface: SD-13, after pdr, 729d
+        Schedule merit function: SD-2, after m1, 212d
+        Observation planner: SD-2, after pdr, 364d
+        Observation plan visualization: SD-3, after pdr, 182d
+        Observation Simulation tool: SD-4, after pdr, 729d
+        Calibration pipeline: SD-5, after pdr, 729d
+        Refined astrometry pipeline: SD-6, after pdr, 486d
+        Standard photometry pipeline: SD-7, after pdr, 729d
+        Photometry performance visualization: SD-8, after pdr, 547d
+        Transient search module: SD-9, after cdr, 364d
+        GW source (treasure map) ToO planner (treatment of HealPix maps): SD-10, after cdr, 364d
+        Adapted ToO broker for most common facilities: SD-11, after cdr, 547d
+        Archive and data product database (design, synchronization tools): SD-12, after pdr, 729d
+        Data product web interface: SD-13, after pdr, 729d
 ```
