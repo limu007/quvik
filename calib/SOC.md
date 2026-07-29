@@ -44,8 +44,18 @@ gantt
     Comissioning : e2, after frr, 13w
     Science operations : e3, after iocr, 52w
 
-    section Cutme
-    "..": dcal, after m1 , 234w
-    "......" : e2, after frr, 13w
-
+    section Software
+Schedule merit function: SD-2, after pdr, 212d
+Observation planner: SD-2, after pdr, 364d
+Observation plan visualization: SD-3, after pdr, 182d
+Observation Simulation tool: SD-4, after pdr, 729d
+Calibration pipeline: SD-5, after pdr, 729d
+Refined astrometry pipeline: SD-6, after pdr, 486d
+Standard photometry pipeline: SD-7, after pdr, 729d
+Photometry performance visualization: SD-8, after pdr, 547d
+Transient search module: SD-9, after pdr, 364d
+GW source (treasure map) ToO planner (treatment of HealPix maps): SD-10, after pdr, 364d
+Adapted ToO broker for most common facilities: SD-11, after pdr, 547d
+Archive and data product database (design, synchronization tools): SD-12, after pdr, 729d
+Data product web interface: SD-13, after pdr, 729d
 ```
