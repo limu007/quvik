@@ -3,17 +3,17 @@ gantt
     title QUVIK
     dateFormat  YYYY-MM-DD
     section Management
-    Kick Off : milestone, m1, 2026-07-31, 1d
-    Phase B2 : b2, after m1, 52w
+    Kick Off : milestone, m1, 2026-12-01, 1d
+    Phase B2 : b2, after m1, 213d
     PDR : milestone, pdr, after b2, 1d
-    Phase C : c1, after pdr, 77w
+    Phase C : c1, after pdr, 547d
     subCDR :  milestone, sc1, after des, 1d
     CDR : milestone, cdr, after c1, 1d
-    Phase D : d1, after cdr, 81w
+    Phase D : d1, after cdr, 668d
     IRR : milestone, irr, after imp, 1d
     AR : milestone, ar, after d1, 1d
     Launch : crit, milestone, frr, after dcal, 1d
-    Phase E : e1, after ar, 81w
+    Phase E : e1, after ar, 578d
     IOCR : milestone, iocr, after e2, 1d
 
 
