@@ -16,7 +16,7 @@ gantt
     AR : milestone, ar, after d1, 1d
     Launch : crit, milestone, frr, after fol, 1d
     Phase E : e1, after ar, 578d
-    IOCR : milestone, iocr, after e2, 1d
+    subIOCR : milestone, iocr, after e2, 1d
 
 
     section PDGS
