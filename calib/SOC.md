@@ -38,7 +38,7 @@ gantt
      User support (on ground data handling & data archive) :  after iocr , 330d
      Archive structure design and development :  after m1 , until frr
      Maintenance and quality verification :  after ar , 81w
-     Web interface :  after ko , until frr
+     Web interface :  after m1 , until frr
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , 1620d
