@@ -4,6 +4,7 @@ gantt
     dateFormat  YYYY-MM-DD
     section Management
     Kick Off : milestone, m1, 2026-12-01, 1d
+    SOC SwRR : milestone, swr, after SD-1, 1d
     Phase B2 : b2, after m1, 213d
     PDR : milestone, pdr, after b2, 1d
     Phase C : c1, after pdr, 547d
@@ -52,7 +53,7 @@ gantt
         Science operations : e3, after iocr, 52w
 
     section Software
-        Schedule merit function: SD-2, after m1, 212d
+        Schedule merit function: SD-1, after m1, 122d
         Observation planner: SD-2, after pdr, 364d
         Observation plan visualization: SD-3, after pdr, 182d
         Observation Simulation tool: SD-4, after pdr, 729d
