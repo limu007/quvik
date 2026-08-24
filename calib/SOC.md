@@ -1,6 +1,7 @@
 ```mermaid
+%%{ init: { "gantt": { "topAxis": true, "topPadding": 65} } }%%
 gantt
-    title QUVIK
+    title QUVIK MUNI 
     dateFormat  YYYY-MM-DD
     section Management
     Kick Off : milestone, m1, 2026-12-01, 1d
