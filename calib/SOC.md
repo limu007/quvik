@@ -26,7 +26,7 @@ gantt
     Design of in-flight calibration procedures :  dcal, after m1 , until frr
     Post-launch calibration efforts : after frr , 420d
 
-    section PDGS
+    section SOC
     Setting up and commissioning the IT infrastructure : after m1, until pdr
     Design, definition of quality criteria and data products : 	des, after m1	, until sc1
     Implementation of astrometry and photometry processing pipelines :crit, imp, after m1 , 169w
@@ -43,9 +43,9 @@ gantt
 
     section Planner
     Observation planning algorithm and pipeline :  after m1 , until frr
-    Development of a permanently opened proposal system : after sc1 , 900d
+    Development of a permanently opened proposal system : after sc1 , until frr
     Optimisation based on in-orbit performance :  after iocr , 330d
-    Algorithms to identify transients for followup : fol, after m1 , 1522d
+    Algorithms to identify transients for followup : fol, after m1 , 1581d
     Optimisation of ToO observation procedures based on early performance :  after iocr , 330d
 
     section Operations
