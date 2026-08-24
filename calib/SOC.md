@@ -11,7 +11,7 @@ gantt
     subPDR :  milestone, sp1, after SD-3, 1d
     subCDR :  milestone, sc1, after SD-5, 1d
     CDR : milestone, cdr, after c1, 1d
-    Phase D : d1, after cdr, 668d
+    Phase D : d1, after cdr, 730d
     IRR : milestone, irr, after SD-11, 1d
     subAR: milestone, sar, after SD-9, 1d
     AR : milestone, ar, after d1, 1d
