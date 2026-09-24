@@ -35,4 +35,10 @@ gantt
     "...." : imp, after m1 , 169w
     "......" : e2, after frr, 13w
 
+    section Manufact
+    System CDR: SysPDR + 18 months
+    NUV Payload AR: System CDR + 14 months
+    SysFAR: System CDR + 22 months
+    SysIOCR: SysFAR + 7 months
+
 ```
