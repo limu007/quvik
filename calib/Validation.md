@@ -1,4 +1,7 @@
 Validation Report
+-------------------
+
+&amp;#x2605; Star symbol
 
 ```mermaid
 flowchart TD
