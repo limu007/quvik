@@ -1,4 +1,7 @@
 ### PDGS Configuration Items
+
+To be refined by &amp;#x1F680; Rockets
+
 ```mermaid
 graph LR
   id0["Scheduling"] --- id2["calibration"];  style id2 stroke:#f37329,stroke-width:4px;  linkStyle 0 stroke:#f37329,stroke-width:4px;
