@@ -6,6 +6,8 @@ Validation Report
 ```mermaid
 flowchart TD
 
+User@{ shape: person, label: "Astronomer" }
+
   TRS["`Test requirement
   specification`"]
   VM["Verification matrix"]
@@ -58,4 +60,5 @@ end
   meth --> close --yes--> VCD
   close --no--> RD
 
+User--> RD
 ```
