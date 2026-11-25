@@ -38,14 +38,13 @@ SOC->>GPDGS: message processed
 sequenceDiagram
     participant SOC
     participant GPDGS as Generic PDGS
-    participant STOR as SOC HTTPS storage
-
+    
     SOC->>GPDGS: request for HK data (time interval, metadata IDs)
     GPDGS-->>SOC: availability confirmed (nb. of entries for time interval)
     SOC->>SOC: create reception link
     SOC->>GPDGS: provide upload URL (HTTPS)
-    GPDGS->>STOR: HTTPS PUT {upload_url} (HK dataset, binary)
-    STOR-->>GPDGS: Table content filled and stored
+    GPDGS->>SOC: HTTPS PUT {upload_url} (HK dataset, binary)
+    SOC-->>GPDGS: Table content filled and stored
     GPDGS->>SOC: upload finished (bytes transferred, checksum)
     SOC->>SOC: verify checksum
     SOC->>GPDGS: success confirmation (consistency verified, Asset object closed)
